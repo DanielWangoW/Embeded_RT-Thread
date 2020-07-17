@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\system_stm32f10x.o"
+".\objects\startup_stm32f10x_hd.o"
+".\objects\cpuport.o"
+".\objects\context_rvds.o"
+".\objects\clock.o"
+".\objects\idle.o"
+".\objects\irq.o"
+".\objects\kservice.o"
+".\objects\object.o"
+".\objects\thread.o"
+".\objects\scheduler.o"
+--strict --scatter ".\Objects\DW021_RTT_Thread_Simulation.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\DW021_RTT_Thread_Simulation.map" -o .\Objects\DW021_RTT_Thread_Simulation.axf

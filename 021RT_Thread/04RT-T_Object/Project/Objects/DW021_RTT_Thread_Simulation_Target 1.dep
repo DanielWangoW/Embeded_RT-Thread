@@ -1,0 +1,48 @@
+Dependencies for Project 'DW021_RTT_Thread_Simulation', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\User\main.c)(0x5ED0948C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Source\User -I ..\Source\CMSIS\Core\CM3 -I ..\Source\rtthread3.x\include -I ..\Source\STM32F10x_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\User\rtconfig.h)(0x5C3E920A)()
+F (..\Source\CMSIS\Core\CM3\system_stm32f10x.c)(0x4D009112)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Source\User -I ..\Source\CMSIS\Core\CM3 -I ..\Source\rtthread3.x\include -I ..\Source\STM32F10x_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\Source\CMSIS\Core\CM3\stm32f10x.h)(0x4B9B5EB0)
+I (..\Source\CMSIS\Core\CM3\core_cm3.h)(0x4A406E4C)
+I (D:\Keilv5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\Source\CMSIS\Core\CM3\system_stm32f10x.h)(0x4A406E4C)
+I (..\Source\User\stm32f10x_conf.h)(0x4E0BE31C)
+I (..\Source\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4DCE3F18)
+I (..\Source\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4E263D49)
+I (..\Source\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4A406E4C)
+I (..\Source\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x4A406E4C)
+I (..\Source\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4E0C6BE9)
+I (..\Source\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CFE27A4)
+F (..\Source\CMSIS\Core\CM3\startup\arm\startup_stm32f10x_hd.s)(0x4A6EAFAA)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\Source\rtthread3.x\libcpu\arm\cortex-m3\cpuport.c)(0x5C3E920A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Source\User -I ..\Source\CMSIS\Core\CM3 -I ..\Source\rtthread3.x\include -I ..\Source\STM32F10x_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\objects\cpuport.o --omf_browse .\objects\cpuport.crf --depend .\objects\cpuport.d)
+I (..\Source\rtthread3.x\include\rtthread.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtdef.h)(0x5ED0DD03)
+I (..\User\rtconfig.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtservice.h)(0x5C3E920A)
+F (..\Source\rtthread3.x\libcpu\arm\cortex-m3\context_rvds.s)(0x5ED0DF32)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list .\listings\context_rvds.lst --xref -o .\objects\context_rvds.o --depend .\objects\context_rvds.d)
+F (..\Source\rtthread3.x\src\scheduler.c)(0x5C3E920A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Source\User -I ..\Source\CMSIS\Core\CM3 -I ..\Source\rtthread3.x\include -I ..\Source\STM32F10x_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\objects\scheduler.o --omf_browse .\objects\scheduler.crf --depend .\objects\scheduler.d)
+I (..\Source\rtthread3.x\include\rtthread.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtdef.h)(0x5ED0DD03)
+I (..\User\rtconfig.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtservice.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rthw.h)(0x5C3E920A)
+F (..\Source\rtthread3.x\src\thread.c)(0x5C3E920A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Source\User -I ..\Source\CMSIS\Core\CM3 -I ..\Source\rtthread3.x\include -I ..\Source\STM32F10x_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\objects\thread.o --omf_browse .\objects\thread.crf --depend .\objects\thread.d)
+I (..\Source\rtthread3.x\include\rtthread.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtdef.h)(0x5ED0DD03)
+I (..\User\rtconfig.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtservice.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rthw.h)(0x5C3E920A)
+F (..\Source\rtthread3.x\src\object.c)(0x5C3E920A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Source\User -I ..\Source\CMSIS\Core\CM3 -I ..\Source\rtthread3.x\include -I ..\Source\STM32F10x_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\objects\object.o --omf_browse .\objects\object.crf --depend .\objects\object.d)
+I (..\Source\rtthread3.x\include\rtthread.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtdef.h)(0x5ED0DD03)
+I (..\User\rtconfig.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtservice.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rthw.h)(0x5C3E920A)
+F (..\Source\rtthread3.x\src\kservice.c)(0x5C3E920A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Source\User -I ..\Source\CMSIS\Core\CM3 -I ..\Source\rtthread3.x\include -I ..\Source\STM32F10x_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\卓道医疗\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o .\objects\kservice.o --omf_browse .\objects\kservice.crf --depend .\objects\kservice.d)
+I (..\Source\rtthread3.x\include\rtthread.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtdef.h)(0x5ED0DD03)
+I (..\User\rtconfig.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rtservice.h)(0x5C3E920A)
+I (..\Source\rtthread3.x\include\rthw.h)(0x5C3E920A)
+F (..\Doc\readme.txt)(0x5ED09107)()
